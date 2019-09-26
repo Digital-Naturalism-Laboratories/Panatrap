@@ -8,15 +8,15 @@ These are created in Gamboa, Panama, at Digital Naturalism Laboratories by Andre
 The collection currently consists of 2 camera trap setups based on the
 
 - Xiaomi Misphere (MADV in the USA)
--- Full electronic functional control over 
----Turning camera ON/OFF
----Switching camera from Video to Photo Mode
----Trigger a photo or video recording
+ -Full electronic functional control over 
+  -Turning camera ON/OFF
+  -Switching camera from Video to Photo Mode
+  -Trigger a photo or video recording
 
 - Ricoh Theta V
---Full electronic functional control over
----Turning the camera on (waking from sleep mode)
----Triggering a photo or video to begin recording
+ -Full electronic functional control over
+  -Turning the camera on (waking from sleep mode)
+  -Triggering a photo or video to begin recording
 
 as we hack more cameras we will add them and their files to this list and repository.
 We hacked the Ricoh Theta S and posted detailed instructions here:
