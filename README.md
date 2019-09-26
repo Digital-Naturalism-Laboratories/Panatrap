@@ -4,11 +4,11 @@ These are created in Gamboa, Panama, at Digital Naturalism Laboratories by Andre
 -The Digital Naturalism Conference (www.dinacon.org)
 -Conservation X Labs
 
-##Cameras
+## Cameras
 The collection currently consists of 2 camera trap setups based on the
 
--Xiaomi Misphere (MADV in the USA)
---Full electronic functional control over 
+- Xiaomi Misphere (MADV in the USA)
+-- Full electronic functional control over 
 ---Turning camera ON/OFF
 ---Switching camera from Video to Photo Mode
 ---Trigger a photo or video recording
@@ -22,7 +22,7 @@ as we hack more cameras we will add them and their files to this list and reposi
 We hacked the Ricoh Theta S and posted detailed instructions here:
 but this was quite a destructive hack (we literally ripped the camera apart and soldered things to its button). The Panatrap project focuses on non-destructive, reversible hacks to turn your 360 camera into a cool trap
 
-##Key Challenges
+## Key Challenges
 Loosely defined, camera traps are simply photographic instruments that can be remotely triggered by wildlife. Typically this is done with a PIR motion sensor triggering a camera to snap a photo.
 Thus when transforming commercially available cameras to become camera traps, the key abilities we need are:
 -Remote Triggering
@@ -40,7 +40,7 @@ Thus when transforming commercially available cameras to become camera traps, th
 --They also face challenges from local creatures (such as small insect destruction, or elephant smashing)
 
 
-##Xiaomi Misphere
+## Xiaomi Misphere
 The first camera that we hacked because it has decent image quality, and importantly it has two exposed electrodes on the camera that make hacking very easy!
 
 They made an interface on the bottom of the camera for the camera to be easily controlled with their included "selfie stick." It's just two metal electrodes that when connected it sends a message to the camera(the original selfie stick has a 220 ohm resistor connected to a button).
@@ -53,7 +53,7 @@ From our examinations, the 3 messages you can send to the camera with this inter
 --Shutter Button (Take a photo, or start or stop a video)
 
 
-##Ricoh Theta V
+## Ricoh Theta V
 This camera was substantially more locked up  in our attempts to remotely operate it (especially in a way that allows for long term use and have a decently quick trigger).
 
 The camera runs android, and has an acessible USB Api (to recieve PTP commands) and in theory has all the abilities to remotely A) Turn ON/OFF and B)Trigger a Photo Capture. But the firmware blocks some of these features (even if you switch into developer mode).
