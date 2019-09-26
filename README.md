@@ -49,8 +49,18 @@ From our examinations, the 3 messages you can send to the camera with this inter
  - Camera ON/OFF
 - Medium Press (2 seconds)
  - Toggle Recording Mode (Video to Photo, or Photo to Video)
-- Short press
+- Short press (0.5-1 seconds)
  - Shutter Button (Take a photo, or start or stop a video)
+ 
+ ### Code
+ Code is available in this repo
+ 
+ ### Hardware
+ Physical Designs are available here for free download:
+ https://a360.co/2nrPLd8
+ 
+ and included in this repo
+ 
 
 
 ## Ricoh Theta V
