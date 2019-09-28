@@ -70,3 +70,11 @@ The camera runs android, and has an acessible USB Api (to recieve PTP commands) 
 
 Luckily we discovered that sending an emulated Keyboard command (through something like a Teensy Arduino 3.2), can remotely wake up the camera (even though this feature is not documented anywhere!), and then we just need to trigger the photo.
 The photo triggering is then done by a small servo connected to the arduino which manually taps the shutter button of the camera. The servo is shut down in between photos to reduce power consumption.
+
+ ### Code
+ Code is available in this repo
+ 
+ ### Hardware
+ Physical Designs are available here for free download:
+ https://a360.co/2m22suQ
+ and included in this repo
